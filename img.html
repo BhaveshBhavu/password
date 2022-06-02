@@ -7,7 +7,7 @@
   <title></title>
 
 <link rel="stylesheet" href="stylet.ycss">
-<script src="main.js"></script>
+
 
 <style>
   
@@ -17,7 +17,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVHRC1jvQZcsMQzLj7bnq-hAMfHlfWqWeBiQ&usqp=CAU");
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVHRC1jvQZcsMQzLj7bnq-hAMfHlfWqWeBiQ&usqp=CAU");*/
+    background-color: rgba(0, 0, 0, 0.5);
     background-size: 100vw auto;
     background-repeat: repeat-y;
 }
@@ -25,16 +26,16 @@ body {
 
 a{
   width: 100px;
-  height: auto;
-  margin: 5px 10px;
+  height: 150px;
+  margin: 6px 10px;
   padding: 0px;
-  border: 1px solid black;
+  border: 1px solidA black;
 }
 
 img{
-  
+  border: 3px solid rgba(0, 0, 0, 0.2);
   width: 100%;
-  height: auto;
+  height: 150px;
   margin: 0px;
   
 }
@@ -50,17 +51,28 @@ img{
 
 <script>
 
-// imeg ke liye js ❤
+// imeg ke liye js ❤      
 
-for (var i = 1; i < 46; i++) {
+
+for (var i = 1; i < 51; i++) {
   
  var box = document.body;
+ 
+
   
- box.innerHTML += ` <a href="img/${i}.jpg"><img src="img/${i}.jpg"></a>`;
+var df = box.innerHTML += ` <a href="img/${i}.jpg"><img src="img/${i}.jpg"></a>`;
+ 
+ 
+
+//box.innerHTML += `<a href="${/img/.length}"><img src="${/img/.length}"></a>`;
+ 
 
 }  
 
+
+
 </script>
+
 
  <a href="img/0.gif"><img src="img/0.gif"></a>
 
